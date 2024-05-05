@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Kerr - Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FFA500; /* Tiger Orange */
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .bio {
+            margin-bottom: 20px;
+        }
+        .linkedin-profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>James Kerr</h1>
+    </header>
+    <div class="container">
+        <div class="bio">
+            <p>Welcome to my personal webpage! I'm James Kerr, a passionate professional with diverse experience in various fields. Feel free to explore more about me and my journey.</p>
+            <p>For a detailed overview, check out my <a href="https://www.linkedin.com/in/jimmykerr/">LinkedIn profile</a>.</p>
+        </div>
+        <div class="linkedin-profile">
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:1234567890123456789" height="300" width="800" frameborder="0" allowfullscreen="" title="Embedded LinkedIn Post"></iframe>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 James Kerr - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
